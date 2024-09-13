@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Pitch.com Presentation to PDF",
+    "version": "1.0",
+    "description": "Take screenshots of each slide in a Pitch.com presentation and compile them into a PDF.",
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "downloads",
+      "tabs",
+      "notifications"
+    ],
+    "action": {
+      "default_title": "Capture Pitch Presentation"
+    },
+    "background": {
+      "service_worker": "background.bundle.js"
+    }
+  }
